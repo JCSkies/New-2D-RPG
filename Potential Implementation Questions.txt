@@ -1,0 +1,12 @@
+
+
+
+
+“Why do we use an accumulator?”
+
+You should say:
+
+“To decouple update rate from render rate so game logic runs at a fixed timestep regardless of frame rate.”
+in this example, some designs have a tight coupling for rendering and updating the screen. if the fps drops or increases, the performance will change, leading to inconsistent and unpleasant results. to counter this, update and render should be independent!
+
+If you can say that, you’re golden.
